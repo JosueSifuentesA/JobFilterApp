@@ -11,7 +11,7 @@ Se pueden añadir filtros de manera progresiva y eliminar aquellos que ya no son
 ## Eliminar Todos los Filtros: 
 Existe una opción para eliminar todos los filtros seleccionados de una vez.
 
-## #Uso
+## Uso
 Acceso a la Página Desplegada:
 
 El proyecto está desplegado en Vercel.
