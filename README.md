@@ -1,27 +1,32 @@
-# JobApp
+##Proyecto Angular de Filtrado de Trabajos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+Este es un proyecto simple en Angular que permite filtrar una lista de trabajos basándose en el stack seleccionado por el usuario. Los usuarios pueden añadir y eliminar filtros progresivamente, y también tienen la opción de eliminar todos los filtros previamente seleccionados.
 
-## Development server
+##Características
+Filtrado por Stack: Los usuarios pueden filtrar la lista de trabajos seleccionando los diferentes elementos del stack.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Añadir y Eliminar Filtros: Se pueden añadir filtros de manera progresiva y eliminar aquellos que ya no son necesarios.
 
-## Code scaffolding
+Eliminar Todos los Filtros: Existe una opción para eliminar todos los filtros seleccionados de una vez.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##Uso
+Acceso a la Página Desplegada:
 
-## Build
+El proyecto está desplegado en Vercel.
+Enlace a la Página del Proyecto (Reemplazar con el enlace real).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#Filtrado de Trabajos:
 
-## Running unit tests
+Al cargar la página, se presenta una lista de trabajos.
+Selecciona los elementos del stack que deseas filtrar.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##Añadir y Eliminar Filtros:
 
-## Running end-to-end tests
+#Añadir Filtros: 
+Haz clic en los elementos del stack para añadir filtros.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#Eliminar Filtros: 
+Haz clic en la "X" junto a cada filtro para eliminarlo.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#Eliminar Todos los Filtros:
+Utiliza la opción proporcionada para eliminar todos los filtros seleccionados.
