@@ -12,12 +12,12 @@ Se pueden añadir filtros de manera progresiva y eliminar aquellos que ya no son
 Existe una opción para eliminar todos los filtros seleccionados de una vez.
 
 ## Uso
-Acceso a la Página Desplegada:
+### Acceso a la Página Desplegada:
 
 El proyecto está desplegado en Vercel.
 Enlace a la Página del Proyecto (Reemplazar con el enlace real).
 
-## Filtrado de Trabajos:
+### Filtrado de Trabajos:
 
 Al cargar la página, se presenta una lista de trabajos.
 Selecciona los elementos del stack que deseas filtrar.
