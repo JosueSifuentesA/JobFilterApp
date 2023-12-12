@@ -1,0 +1,32 @@
+<article class="JobArticle">
+  <div class="JobArticle_jobData">
+    <img src={{this.jobInformation.logo}} alt="Company Logo"/>
+    <div class="jobData_primaryContainer">
+      <div class="JobArticle_primaryInformation">
+        <label class="JobArticle_companyName">{{this.jobInformation.company}}</label>
+        <div class="JobArticle_status">
+          @if(this.jobInformation.new){
+            <label class="status_new">NEW!</label>
+          }
+          @if(this.jobInformation.featured) {
+            <label class="status_featured">FEATURED</label>
+          }
+        </div>
+      </div>
+      <div class="jobData_secondaryContainer">
+        <label class="JobArticle_position">{{this.jobInformation.position}}</label>
+        <ul class="JobArticle_information">
+          <li class="JobArticle_publicationDate">{{this.jobInformation.postedAt}}</li>
+          <li class="JobArticle_contract">{{this.jobInformation.contract}}</li>
+          <li class="JobArticle_location">{{this.jobInformation.location}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="JobArticle_stack"> <!--Role - Level - Languajes - Tools -->
+    @for(stackElement of this.stack; track $index){
+      <li id="stackElement" (click)="addStack($event)">{{stackElement}}</li>
+    }
+  </ul>
+</article>

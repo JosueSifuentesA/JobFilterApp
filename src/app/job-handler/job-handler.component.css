@@ -1,0 +1,8 @@
+.JobHandler{
+  display: flex;
+  flex-flow: column;
+  gap: 50px;
+  padding: 10px;
+  position: relative;
+  bottom: 70px;
+}

@@ -1,0 +1,153 @@
+.JobArticle{
+  display: flex;
+  flex-flow: column;
+  border-left: 6px solid white;
+  padding: 15px;
+  border-radius: 5px;
+
+  gap: 10px;
+  background-color: white;
+  box-shadow: 4px 2px 6px #f3f3f3;
+  font-weight: 500;
+  box-sizing: content-box;
+}
+
+.JobArticle:hover{
+  border-left: 6px solid hsl(180, 29%, 50%);
+}
+
+.JobArticle img{
+  width: 50px;
+  position: absolute;
+  transform: translateY(-80%);
+}
+
+.JobArticle_companyName{
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+
+.JobArticle_position{
+  color: hsl(180, 14%, 20%);
+  font-weight: 700;
+}
+
+.JobArticle_position:hover{
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.JobArticle_information{
+  border-bottom: 2px solid #d1d1d1;
+  display: flex;
+  gap: 30px;
+  color: hsl(180, 8%, 52%);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+
+.JobArticle_stack{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.JobArticle_stack li{
+  background-color: hsl(180, 31%, 95%);
+  padding: 5px 10px;
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.JobArticle_stack li:hover{
+  background-color:  hsl(180, 29%, 50%);
+  color: white;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.JobArticle_primaryInformation{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.JobArticle_status{
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.status_new{
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  font-weight: 500;
+}
+
+.status_featured{
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: hsl(0deg 0% 22.19%);
+  color: white;
+  font-weight: 500;
+}
+
+.jobData_primaryContainer{
+  gap: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.jobData_secondaryContainer{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.JobArticle_jobData{
+  display: flex;
+  flex-flow: column;
+}
+
+@media(min-width:800px){
+  .JobArticle{
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .JobArticle img{
+    width: max-content;
+    position: relative;
+    transform: none;
+  }
+
+  .JobArticle_jobData{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+  }
+
+  .JobArticle_information{
+    border-bottom: 0px;
+  }
+
+  .JobArticle_primaryInformation{
+    margin-top: 0px;
+  }
+
+}

@@ -1,0 +1,15 @@
+@if(this.filterList.length > 0){
+  <form>
+    <ul>
+      @for (filterElement of this.filterList; track $index) {
+        <li>{{filterElement}}
+          <div (click)="deleteFilterElement(filterElement)">
+            x
+          </div>
+        </li>
+      }
+    </ul>
+    <label (click)="clearFilter()">Clear</label>
+  </form>
+}
+

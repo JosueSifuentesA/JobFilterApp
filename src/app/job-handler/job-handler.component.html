@@ -1,0 +1,6 @@
+<section class="JobHandler">
+  <app-job-filter></app-job-filter>
+  @for(job of this.JobsList ; track job.id){
+    <app-job-card [jobInformation] = job></app-job-card>
+  }
+</section>

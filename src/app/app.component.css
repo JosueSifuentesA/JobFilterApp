@@ -1,0 +1,16 @@
+:host{
+  background-color: hsl(180, 52%, 96%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'NombreDeTuFuente', sans-serif;
+}
+
+.Header{
+  max-height: 150px;
+}
+
+
+@font-face {
+  font-family: "LeagueSpartan";
+  src: url('/assets/fonts/LeagueSpartan-VariableFont_wght.ttf') format('woff');
+  }
