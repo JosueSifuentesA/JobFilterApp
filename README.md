@@ -2,7 +2,7 @@
 
 ## Demo : 
 El proyecto está desplegado en Vercel.
-Enlace a la Página del Proyecto [(Reemplazar con el enlace real)](https://job-filter-app-seven.vercel.app/).
+Enlace a la Página del Proyecto https://job-filter-app-seven.vercel.app/
 
 
 Este es un proyecto simple en Angular que permite filtrar una lista de trabajos basándose en el stack seleccionado por el usuario. Los usuarios pueden añadir y eliminar filtros progresivamente, y también tienen la opción de eliminar todos los filtros previamente seleccionados.
